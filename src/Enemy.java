@@ -14,7 +14,6 @@ public class Enemy {
         this.boss = boss;
     }
 
-
     public void standard() {
         enemyHealth = 10 + (2 * floor.getFloor() );
         damage = 1 + (0.5 * floor.getFloor());
@@ -34,11 +33,7 @@ public class Enemy {
         System.out.println("Enemy attacked for " + damage + " damage");
         System.out.println("Enemy health remaining: " + enemyHealth);
     }
-
     public boolean isDead () {
         return enemyHealth <= 0;
     }
-
-
-
 }
