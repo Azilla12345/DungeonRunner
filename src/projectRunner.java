@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.concurrent.TimeUnit;
 
 public class projectRunner {
     Scanner myScanner = new Scanner(System.in);
@@ -37,7 +36,7 @@ public class projectRunner {
 
         for(int i = 0; i <= 3; i++) {
             System.out.println("Loading...");
-            TimeUnit.SECONDS.sleep(1);
+            Thread.sleep(500);
         }
         System.out.println();
 
